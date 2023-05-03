@@ -53,7 +53,7 @@ struct ContentView: View {
             }
             
             .rotationEffect(.degrees(rotateInOut ? 90 : 0))
-            .scaleEffect(scaleInOut ? 1 : 1/10)
+            .scaleEffect(scaleInOut ? 1 : 1/2)
             .animation(Animation
                 .easeInOut(duration: 0.1)
                 .repeatForever(autoreverses: true)
